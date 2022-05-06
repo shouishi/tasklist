@@ -32,7 +32,7 @@ public class TaskValidator {
         return "";
     }
 
-    // メッセージの必須入力チェック
+    // タスクの必須入力チェック
     private static String validateContent(String content) {
         if(content == null || content.equals("")) {
             return "タスクを入力してください。";
